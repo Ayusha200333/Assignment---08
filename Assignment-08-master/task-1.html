@@ -42,11 +42,12 @@
         }
 
         #title{
-            font-size: 97px;
+            font-size: 70px;
             position: absolute;
             top: -190px;
             padding: 10px 500px;
-            color: rebeccapurple;
+            color: black;
+            margin-top: 40px;
         }
 
         h2{
@@ -74,6 +75,11 @@
             font-weight: bold;
             color: azure;
         }
+        img{
+            width: 10px;
+            height: 200px;
+            background-color: white;
+        }
 
     </style>
 </head>
@@ -83,32 +89,32 @@
 
     <div>
         <h2 id="letter1">A</h2>
-        <img class="man" src="/assets/af5587ad1fa5ca160048939e6cae5fa2.gif" alt="">
+        <img class="man" src="../assets/walk-happy.gif" alt="">
     </div>
 
     <div>
         <h2 id="letter2">B</h2>
-        <img class="man" src="/assets/af5587ad1fa5ca160048939e6cae5fa2.gif" alt="">
+        <img class="man" src="../assets/walk-happy.gif" alt="">
     </div>
 
     <div>
         <h2 id="letter3">C</h2>
-        <img class="man" src="/assets/af5587ad1fa5ca160048939e6cae5fa2.gif" alt="">
+        <img class="man" src="../assets/walk-happy.gif" alt="">
     </div>
 
     <div>
         <h2 id="letter4">D</h2>
-        <img class="man" src="/assets/af5587ad1fa5ca160048939e6cae5fa2.gif" alt="">
+        <img class="man" src="../assets/walk-happy.gif" alt="">
     </div>
 
     <div>
         <h2 id="letter5">E</h2>
-        <img class="man" src="/assets/af5587ad1fa5ca160048939e6cae5fa2.gif" alt="">
+        <img class="man" src="../assets/walk-happy.gif" alt="">
     </div>
 
     <div>
         <h2 id="letter6">F</h2>
-        <img class="man" src="/assets/af5587ad1fa5ca160048939e6cae5fa2.gif" alt="">
+        <img class="man" src="../assets/walk-happy.gif" alt="">
     </div>
 </section>
 
@@ -139,7 +145,7 @@
     var interval = null;
 
     $("#start").on("click",() =>{
-        interval  = setInterval(Move,1000);
+        interval  = setInterval(Move,900);
     });
 
     $("#stop").on("click",() =>{
